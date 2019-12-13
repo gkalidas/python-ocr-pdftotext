@@ -1,1 +1,7 @@
+.gitignore
+
 /env_ocr
+/env_pdftotext
+/input/*
+/temp/*
+/output/*
