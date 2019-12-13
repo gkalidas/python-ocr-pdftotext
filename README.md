@@ -1,7 +1,7 @@
 # python-ocr-pdftotext
 ## pdf to text coverter using tessaract.
 
-folder structre of the project  
+folder structure of the project  
 .  
 ├── input  
 ├── ocr.py  
