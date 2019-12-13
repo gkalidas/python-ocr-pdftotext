@@ -9,10 +9,10 @@ folder structure of the project
 ├── README.md  
 └── temp  
 
-input folder    - all input files[pdf files]  
-ocr.py          - business logic  
-output folder   - output files[text files]  
-README.md       - Necessary information about the program  
-temp            - temparary file[mostly jpg's] converted during the program  
+input folder+    - all input files[pdf files]  
+ocr.py+          - business logic  
+output folder+   - output files[text files]  
+README.md+       - Necessary information about the program  
+temp+            - temparary file[mostly jpg's] converted during the program  
 
 README.txt      - how to use, possible errors with solution
