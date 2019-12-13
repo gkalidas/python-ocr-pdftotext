@@ -1,5 +1,5 @@
 # python-ocr-pdftotext
-pdf to text coverter using tessaract.
+## pdf to text coverter using tessaract.
 
 folder structre of the project  
 .  
