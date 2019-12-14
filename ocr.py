@@ -49,7 +49,7 @@ def to_text(
 
     for index, i_file in enumerate(jpg_files):
         input_file = "./temp/"+ i_file
-        print("working directory :",os.getcwd())
+        #print("working directory :",os.getcwd())
         #print("input file for tesseract is {}".format(input_file))
         #print("output file would be {}", output_file_path)
         o_file = os.path.splitext(i_file)[0]
@@ -58,10 +58,10 @@ def to_text(
         command = "tesseract "+ input_file +" "+ output_file_path +" -l eng --oem 1 --psm 3"
         #print("command ", command)
         subprocess.run([command], shell= True)
+        os.remove(input_file)
     #print("path_to_text :", path_to_text)
+
     
-
-
 def to_jpg(
     input_file
     ):
